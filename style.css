@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: center;
+    width: 100%;
+    width: fit-content;
+    margin: 0px;
+}
+
+header{
+    justify-content: center;
+    font-size: 90px; 
+    font-family: "Raleway";
+    width: 80%;
+    text-align: center;
+}
+
+p{
+    margin-top: 10px;
+}
+
+.image1{
+    border-radius: 150px;
+}
+
+.info{
+    width: 80%;
+    display: flex;
+    padding-bottom: 90px;
+    align-items: center;
+    padding-left: 0px;
+}
+
+.about{
+    display: flex;
+    width: 80%;
+    font-size: 40px; 
+    font-family: "Raleway";
+    padding-left: 50px;
+}
+
+.image2{
+    opacity: 0.8;
+    width: 100%;
+}
+
+.image3{
+    opacity: 0.8;
+    width: 100%;
+}
+
+.base-image{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.text-img{
+    font-size: 80px; 
+    font-family: "Raleway";
+    text-align: center;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+
+.mnogo-texta{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    font-size: 35px; 
+    font-family: "Raleway";
+    row-gap: 50px;
+}
+
+.strong-text{
+    font-weight: 500;
+}
+
+.what{
+    display: flex;
+    flex-direction: row;
+    font-size: 35px; 
+    width: 80%;
+    font-family: "Raleway";
+}
+
+.zagolovok{
+    margin: 0px;
+    padding-right: 15px;
+    font-size: 50px; 
+    width: 80%;
+    font-family: "Raleway";
+    font-weight: 600;
+    color: #372F22;
+}
+
+.punkts{
+    margin-top: 0px;
+}
+
+footer{
+    display: flex;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.back-t{
+    font-size: 30px; 
+    font-family: "Raleway";
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    color: #ffffff; 
+    transform: translate(-50%, -50%);
+}
+
+.back-b{
+    width: 231px;
+    height: 35px;
+    font-size: 20px; 
+    font-family: "Raleway";
+    text-align: center;
+    position: absolute;
+    border-radius: 100px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px;
+}
+
+
+@media screen and (max-width: 1190px){
+    .back-t{
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (max-width: 700px){
+    .header{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1050px)
+{
+    header{
+        height: 150px;
+        font-size: 60px;
+    }
+    .image1{
+        width: 200px;
+        height: 200px;
+    }
+    .about{
+        font-size: 30px;
+    }
+
+    .info{
+        padding-bottom: 20px;
+    }
+    body{
+        row-gap: 20px;
+    }
+
+    .text-img{
+        font-size: 60px; 
+    }
+    .mnogo-texta{
+        font-size: 26px;
+        row-gap: 20px;
+    }
+    .what{
+        width: 80%;
+        flex-direction: column;
+    }
+    .punkts{
+        font-size: 26px;
+    }
+    .zagolovok {
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+    .back-b{
+        width: 180px;
+        height: 25px;
+        font-size: 15px; 
+    }
+    .back-t{
+        font-size: 20px; 
+    }
+}
+
+@media screen and (max-width: 820px)
+{
+    .text-img{
+        font-size: 50px;
+    }
+    .mnogo-texta{
+        font-size: 20px;
+        row-gap: 20px;
+    }
+    .punkts{
+        font-size: 20px;
+    }
+    .info{
+        flex-direction: column;
+        font-size: 30px;
+    }
+    .about{
+        font-size: 25px;
+    }
+    .back-t{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .back-b{
+        width: 170px;
+        height: 22px;
+        font-size: 13px; 
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    .back-t{
+        font-size: 17px;
+    }
+    .back-b{
+        width: 160px;
+        height: 21px;
+        font-size: 12px; 
+    }
+    .about{
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 415px)
+{
+    header{
+        height: 150px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .text-img{
+        font-size: 30px;
+    }
+    .zagolovok{
+        font-size: 30px;
+    }
+    .back-b{
+        width: 100px;
+        height: 15px;
+        font-size: 10px;
+    }
+    .back-t{
+        margin-top: 7px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 240px)
+{
+    header{
+        font-size: 30px;
+    }
+    .text-img{
+        font-size: 20px;
+    }
+    .back-b{
+        width: 70px;
+        height: 10px;
+        font-size: 7px;
+    }
+    .back-t{
+        margin-top: 2px;
+        font-size: 7px;
+    }
+}
